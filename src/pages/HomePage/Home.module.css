@@ -1,0 +1,9 @@
+
+.new{
+  background: linear-gradient(rgba(0, 0, 0, 0.57), rgb(34, 34, 34)),
+  url(../../assets/Home.jpg) no-repeat center;  background-size: cover;
+  height: 85vh;
+}
+
+
+ 
