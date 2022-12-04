@@ -54,7 +54,7 @@ const router = createBrowserRouter([
     ],
 
   }, {
-    path: "/https://peppy-tapioca-1d0c54.netlify.app/about",
+    path: "/about",
     element: <About />,
   }
 ]);

@@ -96,7 +96,7 @@ export const navLinks = [
       title: "PORTFOLIO",
    },
    {
-      id: "https://peppy-tapioca-1d0c54.netlify.app/about",
+      id: "/about",
       title: "ABOUT",
    },
    {
