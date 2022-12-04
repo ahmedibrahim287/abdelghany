@@ -26,7 +26,7 @@ import About from "./pages/AboutPage/About";
 
 const router = createBrowserRouter([
   {
-    path: "/abdelghany/",
+    path: "/",
     element: <Home />,
     errorElement: <ErrorPage />,
     loader: rootLoader,
@@ -35,12 +35,12 @@ const router = createBrowserRouter([
     children: [
       { index: true, element: <Index /> },
       {
-        path: "/abdelghany/contacts/:contactId",
+        path: "/contacts/:contactId",
         element: <Contact />,
         loader: contactLoader,
 
       }, {
-        path: "/abdelghany/contacts/:contactId/edit",
+        path: "/contacts/:contactId/edit",
         element: <EditContact />,
         loader: contactLoader,
         action: editAction,
@@ -54,7 +54,7 @@ const router = createBrowserRouter([
     ],
 
   }, {
-    path: "/abdelghany/about",
+    path: "/about",
     element: <About />,
   }
 ]);
