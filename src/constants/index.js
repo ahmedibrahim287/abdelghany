@@ -92,7 +92,7 @@ export const skills = [
 
 export const navLinks = [
    {
-      id: "#LatestWork",
+      id: "https://abdelghany.vercel.app/#LatestWork",
       title: "PORTFOLIO",
    },
    {
