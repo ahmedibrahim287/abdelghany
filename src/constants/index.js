@@ -96,7 +96,7 @@ export const navLinks = [
       title: "PORTFOLIO",
    },
    {
-      id: "/about",
+      id: "https://abdelghany.vercel.app/about",
       title: "ABOUT",
    },
    {
