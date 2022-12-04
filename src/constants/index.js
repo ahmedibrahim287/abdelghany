@@ -92,7 +92,7 @@ export const skills = [
 
 export const navLinks = [
    {
-      id: "https://ahmedibrahim287.github.io//abdelghany/#LatestWork",
+      id: "https://ahmedibrahim287.github.io/abdelghany/#LatestWork",
       title: "PORTFOLIO",
    },
    {
