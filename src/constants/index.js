@@ -92,11 +92,11 @@ export const skills = [
 
 export const navLinks = [
    {
-      id: "#LatestWork",
+      id: "portfolio",
       title: "PORTFOLIO",
    },
    {
-      id: "/about",
+      id: "about",
       title: "ABOUT",
    },
    {

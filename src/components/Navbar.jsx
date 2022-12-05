@@ -18,9 +18,7 @@ const Navbar = () => {
                   className={`font-poppins font-normal cursor-pointer transition-all leading-[17px] tracking-[1px] uppercase duration-300  text-[13px] text-laito hover:text-secondary active:text-secondary ${index === navLinks.length - 1 ? " mr-0" : "mr-10"
                      }`}
                >
-
-                  <a href={nav.id}>{nav.title}</a>
-                  {/* {nav.id === "#LatestWork" ? <a href={nav.id}>{nav.title}</a> : nav.id === "https://linktr.ee/abdelghanie" ? <a href={nav.id}>{nav.title}</a> : <Link to={nav.id}>{nav.title}</Link>} */}
+                  {nav.id === "https://linktr.ee/abdelghanie" ? <a href={nav.id}>{nav.title}</a> : <Link to={nav.id}>{nav.title}</Link>}
                </li>
             ))}
          </ul>
@@ -42,7 +40,7 @@ const Navbar = () => {
                         className={`font-poppins font-normal cursor-pointer transition-all leading-[17px] tracking-[1px] uppercase duration-300  text-[13px] text-laito hover:text-secondary active:text-secondary ${index === navLinks.length - 1 ? " mr-0" : "mb-4"
                            }`}
                      >
-                        <Link to={nav.id}>{nav.title}</Link>
+                        {nav.id === "https://linktr.ee/abdelghanie" ? <a href={nav.id}>{nav.title}</a> : <Link to={nav.id}>{nav.title}</Link>}
                      </li>
                   ))}
                </ul>
