@@ -16,7 +16,7 @@ import Index from "./pages/Index";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/newAbd-Elghany/",
     element: <Home />,
     errorElement: <ErrorPage />,
 
@@ -24,10 +24,10 @@ const router = createBrowserRouter([
     children: [
       { index: true, element: <Index /> },
       {
-        path: "/portfolio",
+        path: "/newAbd-Elghany/portfolio",
         element: <Index />,
       }, {
-        path: "/about",
+        path: "/newAbd-Elghany/about",
         element: <About />,
       }
     ],
