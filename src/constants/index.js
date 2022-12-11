@@ -9,7 +9,6 @@ import ph from "../assets/skills/ph.png";
 import ae from "../assets/skills/ae.png";
 import id from "../assets/skills/id.png";
 import ai from "../assets/skills/ai.png";
-import xd from "../assets/skills/xd.png";
 import pr from "../assets/skills/pr.png";
 
 export const aboutMeHeader = "I'm Abdelghany mohamed egyptian graphic designer"
@@ -30,37 +29,37 @@ export const prevWork = [
    {
       id: "work-1",
       title: "work-1 work-1",
-      link: "https://www.hoobank.com/content/",
+      link: "https://www.behance.net/gallery/143367025/social-media",
       img: work1
    },
    {
       id: "work-2",
       title: "work-2work-2",
-      link: "https://www.hoobank.com/content/",
+      link: "https://www.behance.net/gallery/151368359/Go-Business-logo",
       img: work2
    },
    {
       id: "work-3",
       title: "work-3work-3",
-      link: "https://www.hoobank.com/content/",
+      link: "https://www.behance.net/gallery/148361807/Happy-Eid",
       img: work3
    },
    {
       id: "work-4",
       title: "work-4work-4",
-      link: "https://www.hoobank.com/content/",
+      link: "https://www.behance.net/gallery/157796507/social-maedia-desigens",
       img: work4
    },
    {
       id: "work-5",
       title: "work-5work-5",
-      link: "https://www.hoobank.com/content/",
+      link: "https://www.behance.net/gallery/148336767/Trifle",
       img: work5
    },
    {
       id: "work-6",
       title: "work-6work-6",
-      link: "https://www.hoobank.com/content/",
+      link: "https://www.behance.net/gallery/146217303/Abousenna-premier-%28logo%29",
       img: work6
    },
 ];
@@ -70,11 +69,6 @@ export const skills = [
       id: "skill-1",
       description: "adobe photoshop",
       img: ph
-   },
-   {
-      id: "skill-2",
-      description: "adobe xd",
-      img: xd
    },
    {
       id: "skill-3",
