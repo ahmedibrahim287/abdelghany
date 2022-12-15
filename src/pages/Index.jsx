@@ -28,7 +28,7 @@ const Index = () => {
             <h2 className="mb-10 text-white text-[50px] leading-[53px] font-medium capitalize">
                Skills
             </h2>
-            <div className="container m-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
+            <div className="container m-auto flex flex-wrap justify-center items-center gap-2">
                {skills.map((skill, index) => (
                   <div key={skill.id} className=" flex flex-col justify-center items-center text-center">
                      <CardOfSkills skill={skill} />

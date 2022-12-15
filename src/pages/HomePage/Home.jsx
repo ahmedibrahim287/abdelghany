@@ -4,21 +4,13 @@ import { aboutMeHeader, Header } from "../../constants";
 import styles from "../../styles";
 import styules from "./Home.module.css"
 import CvBtn from "../../components/CvBtn"
-// import CardOfWork from "../../components/CardOfWork";
-// import CardOfSkills from "../../components/CardOfSkills";
 import Footer from "../../components/Footer";
 
 
 import {
    Outlet,
    useNavigation,
-
 } from "react-router-dom";
-
-
-
-
-
 
 const Home = () => {
    const navigation = useNavigation();
