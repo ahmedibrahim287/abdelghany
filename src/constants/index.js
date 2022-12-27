@@ -20,17 +20,6 @@ export const aboutMeInfo = [
     description:
       "I'm Abdelghany Mohamed, I live in Egypt, have a Bachelor of Commerce department in banking and financial markets management, I worked as an accountant for two years, but I wasn't very interested in the field, so I looked for an extra field, and I came across the field of graphics, I decided to learn it, took several courses and worked as a designer with a printing press and e-marketing pages, but graphics like the sea have no boundaries, so I preferred to specialize in motion graphics, If you're an agent will be happy to work with you, and if you're a student you're welcome to help.",
   },
-
-  {
-    header: "Education :",
-    description:
-      "Bachelor of commerce department of banks management and capital markets. 2019",
-  },
-  {
-    header: "Professional objective :",
-    description:
-      "I choose this job because it fits my scientific credentials, trying to acquire new skills and expertise, and also to build on my past experience in this field and to work hard for the future.I choose that company as I knew how well it was and gave it every chance, every aspiration,to a better future and greater ",
-  },
 ];
 
 export const prevWork = [
