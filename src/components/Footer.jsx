@@ -7,21 +7,21 @@ const Footer = () => {
   return (
     // 01122533180 & 01025771991
     <>
-      <div className={`${styles.boxWidth} ${styles.flexCenter}`}>
+      <div className={`w-full ${styles.flexCenter}`}>
         <ul className={`${styles.flexCenter} list-none`}>
           <li className={`${styles.padding}`}>
             <a href="mailto:abdelghanymohamed81@gmail.com" target={"_blank"}>
-              <i class="fa-duotone fa-envelopes-bulk text-white text-2xl cursor-pointer"></i>
+              <i className="fa-duotone fa-envelopes-bulk text-white text-2xl cursor-pointer"></i>
             </a>
           </li>
           <li className={`${styles.padding}`}>
             <a href="tel:01122533180" target={"_blank"}>
-              <i class="fa-duotone fa-phone text-white text-2xl cursor-pointer"></i>
+              <i className="fa-duotone fa-phone text-white text-2xl cursor-pointer"></i>
             </a>
           </li>
           <li className={`${styles.padding}`}>
             <a href="https://www.behance.net/0f87d033" target={"_blank"}>
-              <i class="fa-brands fa-square-behance text-white text-2xl cursor-pointer"></i>
+              <i className="fa-brands fa-square-behance text-white text-2xl cursor-pointer"></i>
             </a>
           </li>
         </ul>
