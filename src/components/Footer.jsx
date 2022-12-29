@@ -5,7 +5,6 @@ import styles from "../styles.js";
 
 const Footer = () => {
   return (
-    // 01122533180 & 01025771991
     <>
       <div className={`w-full ${styles.flexCenter}`}>
         <ul className={`${styles.flexCenter} list-none`}>

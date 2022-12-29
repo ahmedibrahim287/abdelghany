@@ -2,7 +2,7 @@ import React from "react";
 
 const InfoCard = ({ info }) => {
   return (
-    <div className="w-[80%] sm:w-[65%] md:w-[60%] flex flex-col    mb-5 p-5 text-left">
+    <div className="w-[100%] sm:w-[100%] md:w-[60%] flex flex-col    mb-5  text-left">
       <div className="mb-2 text-white text-[30px] leading-[53px] font-medium capitalize">
         {info.header}{" "}
       </div>

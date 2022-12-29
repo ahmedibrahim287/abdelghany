@@ -30,7 +30,7 @@ const About = () => {
         <img
           src={aboutImg}
           alt="sdsd"
-          className="w-[20%] sm:w-[15%] md:w-[10%] m-auto rounded-[6rem] "
+          className="w-[50%] sm:w-[15%] md:w-[10%] m-auto rounded-[6rem] "
         />
         {aboutMeInfo.map((info, index) => (
           <InfoCard key={index} info={info} />

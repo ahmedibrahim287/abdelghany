@@ -3,7 +3,6 @@ import work2 from "../assets/prevwork/work2.jpg";
 import work3 from "../assets/prevwork/work3.jpg";
 import work4 from "../assets/prevwork/work4.jpg";
 import work5 from "../assets/prevwork/work5.jpg";
-import work6 from "../assets/prevwork/work6.jpg";
 import ph from "../assets/skills/ph.png";
 import ae from "../assets/skills/ae.png";
 import id from "../assets/skills/id.png";
@@ -25,40 +24,33 @@ export const aboutMeInfo = [
 export const prevWork = [
   {
     id: "work-1",
-    title: "work-1 work-1",
-    link: "https://www.behance.net/gallery/143367025/social-media",
+    title: "AMA",
+    link: "https://www.behance.net/gallery/145764079/AMA",
     img: work1,
   },
   {
     id: "work-2",
-    title: "work-2work-2",
+    title: "K7-Esports",
     link: "https://www.behance.net/gallery/151368359/Go-Business-logo",
     img: work2,
   },
   {
     id: "work-3",
-    title: "work-3work-3",
+    title: "Illustrations",
     link: "https://www.behance.net/gallery/148361807/Happy-Eid",
     img: work3,
   },
   {
     id: "work-4",
-    title: "work-4work-4",
+    title: "Social Media Design",
     link: "https://www.behance.net/gallery/157796507/social-maedia-desigens",
     img: work4,
   },
   {
     id: "work-5",
-    title: "work-5work-5",
+    title: "Manipulation",
     link: "https://www.behance.net/gallery/148336767/Trifle",
     img: work5,
-  },
-  {
-    id: "work-6",
-    title: "work-6work-6",
-    link:
-      "https://www.behance.net/gallery/146217303/Abousenna-premier-%28logo%29",
-    img: work6,
   },
 ];
 
